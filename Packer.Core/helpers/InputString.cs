@@ -4,7 +4,7 @@ using com.mobiquity.packer.models;
 namespace com.mobiquity.packer.helpers {
 
     /// <summary>
-    /// Central parsing class that will handle the parsing off errors, in case of an invalid input, it will throw an API exception
+    /// Central helper class that will clean the input strings
     /// <summary>
     public static class InputString {
         public static string CleanInput(string input)
